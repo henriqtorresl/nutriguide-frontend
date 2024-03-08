@@ -7,6 +7,8 @@
     // Adicionando um scroll bar no sentido vertical:
     overflow-x: hidden;
     overflow-y: scroll;
+
+    background: url('../../../assets/img/folhas.gif') center/100%;
 }
 
 // Configurações do scroll bar:
@@ -40,6 +42,8 @@
     border: 1px solid #F49320;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
+
+    background-color: #fff;
 }
 
 .table-header {
@@ -126,29 +130,4 @@
     /* superior | direita | inferior | esquerda */
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-}
-
-.botao {
-    margin: 30px 20px 30px 20px;
-    display: flex;
-    justify-content: end;
-
-    button {
-        box-shadow: 0.05em 0.05em 0.05em #333;
-        height: 50px;
-
-        font-size: 24px;
-        text-decoration: none;
-        color: #FFFFFF;
-        background-color: #F49320;
-        padding: 0px 40px 0px 40px;
-        /* superior | direita | inferior | esquerda */
-        border-radius: 25px;
-        border: none;
-    }
-
-    button:hover {
-        cursor: pointer;
-        background-color: #ca7b1a;
-    }
 }

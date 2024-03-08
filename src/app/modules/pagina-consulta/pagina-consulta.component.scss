@@ -72,7 +72,6 @@
 
     
     a {
-        text-shadow: 0.05em 0.05em 0.05em #333;
         margin-right: 25px;
         font-size: 25px;
         text-decoration: none;
@@ -89,7 +88,6 @@
 
 
     button {
-        box-shadow: 0.05em 0.05em 0.05em #333;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -101,7 +99,7 @@
         border: none;
         padding: 15px 15px 15px 15px;  /* superior | direita | inferior | esquerda */
         margin: 50px 0 50px 20px; 
-        border-radius: 50px;
+        border-radius: 5px;
         img {
             margin: 0 0 0 15px;
         }

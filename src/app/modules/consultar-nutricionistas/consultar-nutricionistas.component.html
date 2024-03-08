@@ -26,41 +26,34 @@
             <div class="table-body">
 
                 <ng-container *ngIf="nutricionistaList.length > 0 else semConteudo">
-                
+
                     <table>
                         <tr *ngFor="let nutricionista of nutricionistaList">
-                            <td 
-                                (click)="irPaginaNutri(nutricionista.id_nutricionista)"
-                                [matTooltip]="'Especialidade: ' +  nutricionista.especialidade"
-                            >
+                            <td (click)="irPaginaNutri(nutricionista.id_nutricionista)"
+                                [matTooltip]="'Especialidade: ' +  nutricionista.especialidade">
                                 {{ nutricionista.nome_usuario }}
                             </td>
-                            <td
-                                (click)="irPaginaNutri(nutricionista.id_nutricionista)"
-                            >
+                            <td (click)="irPaginaNutri(nutricionista.id_nutricionista)">
                                 {{ nutricionista.regiao }}
                             </td>
-                            <td
-                                (click)="irPaginaNutri(nutricionista.id_nutricionista)"
-                            >
+                            <td (click)="irPaginaNutri(nutricionista.id_nutricionista)">
                                 {{ nutricionista.telefone }}
                             </td>
-                            <td
-                                (click)="irPaginaNutri(nutricionista.id_nutricionista)"
-                            >
+                            <td (click)="irPaginaNutri(nutricionista.id_nutricionista)">
                                 {{ nutricionista.redesocial }}
                             </td>
                             <td>
-                                <button (click)="irPaginaNutri(nutricionista.id_nutricionista)" matTooltip="Ir para página do Nutricionista">
+                                <button (click)="irPaginaNutri(nutricionista.id_nutricionista)"
+                                    matTooltip="Ir para página do Nutricionista">
                                     <mat-icon>person</mat-icon>
                                 </button>
                             </td>
                         </tr>
-                        
+
                     </table>
-                
+
                 </ng-container>
-                
+
                 <ng-template #semConteudo>
 
                     <div class="table-sem-conteudo">
@@ -68,16 +61,12 @@
                     </div>
 
                 </ng-template>
-                
-            
+
+
             </div>
         </div>
-        <div class="table-footer">
-        </div>
-
-        <div class="botao">
-            <button (click)="fechar()">Fechar</button>
-        </div>
+        
+        <div class="table-footer"></div>
 
     </div>
 

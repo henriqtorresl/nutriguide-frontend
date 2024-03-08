@@ -13,7 +13,7 @@
 
         <div class="title">
             <h1>Gerenciar o Plano Alimentar do Paciente</h1>
-            <h3><span>Paciente:</span> {{ nomePlano }}</h3>
+            <h3><span>Paciente:</span> {{ paciente.nome_usuario }}</h3>
         </div>
 
         <div class="body">
@@ -166,12 +166,6 @@
 
             </ng-template>
 
-        </div>
-
-        <div class="footer">
-            <button (click)="voltar()">
-                Voltar
-            </button>
         </div>
 
     </div>
