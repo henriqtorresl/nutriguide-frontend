@@ -6,7 +6,7 @@ import { take } from 'rxjs';
 import { AuthService } from 'src/app/services/auth-service/auth.service';
 import { NutricionistaService } from 'src/app/services/nutricionista-service/nutricionista.service';
 import { UsuarioService } from 'src/app/services/usuario-service/usuario.service';
-import Tabs from '../tabs/tabs.component';
+import Tabs from '../../shared/tabs/tabs.component';
 
 @Component({
   selector: 'app-login',

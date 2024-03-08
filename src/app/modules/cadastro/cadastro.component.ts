@@ -3,7 +3,7 @@ import { FormGroup, FormBuilder, Validators, FormControl } from '@angular/forms'
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { Router } from '@angular/router';
 import { AuthService } from 'src/app/services/auth-service/auth.service';
-import Tabs from '../tabs/tabs.component';
+import Tabs from '../../shared/tabs/tabs.component';
 import UsuarioNutricionista from 'src/app/interfaces/UsuarioNutricionista';
 
 @Component({
