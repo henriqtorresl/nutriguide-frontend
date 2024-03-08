@@ -1,12 +1,16 @@
 .container {
-    // background-color: red;
     display: flex;
     flex-direction: column;
-    margin: 50px 100px 0 100px; /* superior | direita | inferior | esquerda */
+    justify-content: center;
+    align-items: center;
+
+    height: 90%;
+    width: 100%;
+    background: url('../../../assets/img/folhas.gif') center/80%;
 }
 
 .title {
-    width: 100%;
+    width: 90%;
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
@@ -36,10 +40,14 @@
 }
 
 .table {
+    width: 90%;
+
     margin: 40px 0 0 0; /* superior | direita | inferior | esquerda */
     border: 1px solid #F49320;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
+
+    background-color: #fff;
 }
 
 .table-header {
@@ -127,6 +135,7 @@
 }
 
 .table-footer {
+    width: 90%;
     background-color: #CBEDCB;
     height: 30px;
     margin: 0 0 80px 0; /* superior | direita | inferior | esquerda */
